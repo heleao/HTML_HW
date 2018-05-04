@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Bootstrap Components</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <ul class="nav nav-pills" role="tablist">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="./home.html">Lattitude</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="./max_temp.html">Max Temp</a></li>
+              <li><a href="./humidity.html">Humidity</a></li>
+              <li><a href="./cloudiness.html">Cloudiness</a></li>
+              <li><a href="./windspeed.html">Wind Speed</a></li>
+            </ul>
+          </li>
+          <li><a href="./comparison.html">Comparison</a></li>
+          <li><a href="./data.html">Data</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <div class="container">
+    <h1 class="text-left">Comparison: Latitude vs X</h1>
+    <p>Click any plots to get an in-depth analysis</p>
+    <div class="row">
+      <div class="col-md-6">
+          <h3 class="text-centered">vs. Cloudiness</h3>
+          <a href="https://www.w3schools.com"><img src="./LatvsCloudinessPlot.png" width="350" height="300" ></a>
+        </div>  
+      <div class="col-md-6">
+        <h3 class="text-centered">vs. Humidity</h3>
+          <a href="https://www.w3schools.com"><img src="./LatvsHumidityPlot.png" width="350" height="300"></a>
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="text-centered">vs. Max Temperature</h3>
+        <a href="https://www.w3schools.com"><img src="./LatvsMaxTempPlot.png" width="350" height="300"></a>
+      </div>
+      <div class="col-md-6">
+        <h3 class="text-centered">vs. Wind Speed</h3>
+        <a href="https://www.w3schools.com"><img src="./LatvsWindSpeedPlot.png" width="350" height="300"</a>
+      </div>
+    </div>
+  </div>
+
+ 
+
+</body>
+
+</html>
